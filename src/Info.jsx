@@ -9,7 +9,7 @@ export default function Info() {
             <img src={profilePicture} className="info--image" />
             <div className='info-content'>
                 <h1 className='info--name' alt="Profile Picture">Raphael Sanchez</h1>
-                <h4 className='info--title'>Fontend Developer</h4>
+                <h4 className='info--title'>Frontend Developer</h4>
                 <h5 className='info--website'>raphaelsanchez.net</h5>
                 <a className='info--link' href={`mailto:${emailAddress}`}>
                     <button className='info--button'><img src={mail}></img>Email</button>
